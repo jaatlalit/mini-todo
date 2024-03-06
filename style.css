@@ -9,93 +9,7 @@
     background-color: purple;
 }
 
-/* Animation Keyframes */
 
-/* @keyframes fadeOut {
-    0% {
-        opacity: 1;
-    }
-
-    100% {
-        opacity: 0;
-    }
-}
-
-@keyframes zoomInOut {
-
-    0%,
-    100% {
-        transform: scale(0.5);
-    }
-
-    50% {
-        transform: scale(1);
-    }
-} */
-
-/* @keyframes bounceTop {
-
-    0%,
-    100% {
-        transform: translateY(-50px);
-    }
-
-    50% {
-        transform: translateY(0px);
-    }
-} */
-
-/* **** Background Circles ****  */
-
-/* .bg-circles div {
-    position: absolute;
-    border-radius: 50%;
-}
-
-.bg-circles .circle-1 {
-    height: 80px;
-    width: 80px;
-    background-color: blue;
-    left: 10%;
-    top: 20%;
-    opacity: 0.3;
-    filter: blur(10px);
-    animation: bounceTop 5s ease-in-out infinite;
-}
-
-.bg-circles .circle-2 {
-    height: 150px;
-    width: 150px;
-    background-color: #cc2b5e;
-    left: 29%;
-    top: 60%;
-    opacity: 0.4;
-    filter: blur(10px);
-    animation: zoomInOut 8s linear infinite;
-}
-
-.bg-circles .circle-3 {
-    height: 150px;
-    width: 150px;
-    background-color:#57bacd;
-    right: 28%;
-    top: 15%;
-    opacity: 0.6;
-    filter: blur(10px);
-    animation: zoomInOut 8s linear infinite;
-}
-
-.bg-circles .circle-4 {
-    height: 80px;
-    width: 80px;
-    background-color: red;
-    right: 10%;
-    top: 80%;
-    opacity: 0.6;
-    filter: blur(10px);
-    animation: bounceTop 8s linear infinite;
-}
- */
 .container {
     width: 100%;
     min-height: 100vh;
@@ -115,7 +29,7 @@
 }
 
 .todo-app h2 {
-    color: #cc2b5e;
+    color: #CBC3E3;
     display: flex;
     font-size: 30px;
     align-items: center;
@@ -131,7 +45,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: #ee8e8e;
+    background: #CBC3E3;
     border-radius: 10px;
     padding-left: 20px;
     margin-bottom: 25px;

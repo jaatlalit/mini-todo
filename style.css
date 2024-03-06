@@ -1,19 +1,17 @@
 
 
-
 * {
     margin: 0;
     padding: 0;
     font-family: 'Poppins', sans-serif;
     box-sizing: border-box;
-    
 }
 
 
 .container {
     width: 100%;
     min-height: 100vh;
-    background: linear-gradient(135deg, #CBC3E3, #CBC3E3);
+    background: linear-gradient(135deg, #d48080, #ffb88c);
     padding: 10px;
 }
 
@@ -25,11 +23,11 @@
     margin: 100px auto 20px;
     padding: 40px 30px 70px;
     border-radius: 10px;
-    box-shadow: 5px 5px 25px 5px #CBC3E3;
+    box-shadow: 5px 5px 25px 5px rgba(110, 104, 104, 0.7);
 }
 
 .todo-app h2 {
-    color: #CBC3E3;
+    color: #cc2b5e;
     display: flex;
     font-size: 30px;
     align-items: center;
@@ -45,7 +43,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: #CBC3E3;
+    background: #ee8e8e;
     border-radius: 10px;
     padding-left: 20px;
     margin-bottom: 25px;
@@ -55,7 +53,7 @@ input {
     flex: 1;
     border: none;
     outline: none;
-    color: #CBC3E3;
+    color: #000;
     background: transparent;
     padding: 10px;
     font-weight: 14px;
@@ -65,8 +63,8 @@ button {
     border: none;
     outline: none;
     padding: 16px 50px;
-    background: #CBC3E3;
-    color: #CBC3E3;
+    background: #ed5f4f;
+    color: #fff;
     font-size: 18px;
     font-weight: 600;
     cursor: pointer;
@@ -74,8 +72,8 @@ button {
 }
 
 button:hover{
-    background-color: #CBC3E3;
-    color: #CBC3E3;
+    background-color: #cc2b5e;
+    color: #fff;
 }
 
 ul li {
@@ -93,7 +91,7 @@ ul li::before {
     height: 28px;
     width: 28px;
     border-radius: 50px;
-    background-image: url('./icon.png');
+    background-image: url('images/icon.png');
     background-size: cover;
     background-position: center;
     top: 7px;
@@ -101,12 +99,12 @@ ul li::before {
 }
 
 ul li.checked {
-    color: #CBC3E3;
+    color: #555;
     text-decoration: line-through;
 }
 
 ul li.checked::before {
-    background-image: url('./check.png');
+    background-image: url('images/check.png');
     height: 50px;
     width: 50px;
     margin-top: -8px;
@@ -120,13 +118,13 @@ ul li span {
     width: 40px;
     height: 40px;
     font-size: 22px;
-    color: #CBC3E3;
+    color: #555;
     line-height: 40px;
     text-align: center;
 }
 
 ul li span:hover {
-    background:#CBC3E3;
+    background: #edeef0;
 }
 
 /* Responsive Design  */

@@ -1,8 +1,8 @@
 
-:root {
+/* :root {
     --white-alpha-40: rgba(255, 255, 255, 0.40);
     --white-alpha-25: rgba(255, 255, 255, 0.25);
-}
+} */
 
 * {
     margin: 0;
@@ -13,7 +13,7 @@
 
 /* Animation Keyframes */
 
-@keyframes fadeOut {
+/* @keyframes fadeOut {
     0% {
         opacity: 1;
     }
@@ -33,9 +33,9 @@
     50% {
         transform: scale(1);
     }
-}
+} */
 
-@keyframes bounceTop {
+/* @keyframes bounceTop {
 
     0%,
     100% {
@@ -45,7 +45,7 @@
     50% {
         transform: translateY(0px);
     }
-}
+} */
 
 /* **** Background Circles ****  */
 

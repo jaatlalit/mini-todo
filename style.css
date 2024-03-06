@@ -49,7 +49,7 @@
 
 /* **** Background Circles ****  */
 
-.bg-circles div {
+/* .bg-circles div {
     position: absolute;
     border-radius: 50%;
 }
@@ -97,7 +97,7 @@
     filter: blur(10px);
     animation: bounceTop 8s linear infinite;
 }
-
+ */
 .container {
     width: 100%;
     min-height: 100vh;

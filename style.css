@@ -25,7 +25,7 @@
     margin: 100px auto 20px;
     padding: 40px 30px 70px;
     border-radius: 10px;
-    box-shadow: 5px 5px 25px 5px rgba(11, 30, 104, 0.7);
+    box-shadow: 5px 5px 25px 5px #CBC3E3;
 }
 
 .todo-app h2 {
@@ -55,7 +55,7 @@ input {
     flex: 1;
     border: none;
     outline: none;
-    color: #000;
+    color: #CBC3E3;
     background: transparent;
     padding: 10px;
     font-weight: 14px;
@@ -74,8 +74,8 @@ button {
 }
 
 button:hover{
-    background-color: #cc2b5e;
-    color: #fff;
+    background-color: #CBC3E3;
+    color: #CBC3E3;
 }
 
 ul li {
@@ -101,7 +101,7 @@ ul li::before {
 }
 
 ul li.checked {
-    color: #555;
+    color: #CBC3E3;
     text-decoration: line-through;
 }
 
@@ -126,7 +126,7 @@ ul li span {
 }
 
 ul li span:hover {
-    background: #edeef0;
+    background:#CBC3E3;
 }
 
 /* Responsive Design  */

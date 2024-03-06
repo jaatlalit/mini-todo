@@ -181,7 +181,7 @@ ul li::before {
     height: 28px;
     width: 28px;
     border-radius: 50px;
-    background-image: url('images/icon.png');
+    background-image: url('icon.png');
     background-size: cover;
     background-position: center;
     top: 7px;
@@ -194,7 +194,7 @@ ul li.checked {
 }
 
 ul li.checked::before {
-    background-image: url('images/check.png');
+    background-image: url('check.png');
     height: 50px;
     width: 50px;
     margin-top: -8px;
